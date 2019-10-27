@@ -25,6 +25,12 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
+config :argon2_elixir,
+  t_cost: 8,
+  m_cost: 17,
+  parallelism: 4,
+  argon2_type: 2
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{Mix.env()}.exs"
