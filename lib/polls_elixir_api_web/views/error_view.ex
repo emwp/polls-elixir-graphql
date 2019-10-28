@@ -1,5 +1,5 @@
 defmodule PollsElixirApiWeb.ErrorView do
-  use PollsElixirApiWeb, :view
+  # use PollsElixirApiWeb, :view
 
   # If you want to customize a particular status code
   # for a certain format, you may uncomment below.

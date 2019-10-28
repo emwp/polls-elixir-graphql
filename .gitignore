@@ -28,3 +28,4 @@ polls_elixir_api-*.tar
 /priv/static/
 
 .elixir_ls/
+.vscode
